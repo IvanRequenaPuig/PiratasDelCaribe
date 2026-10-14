@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piratas del Caribe | La Leyenda del Perla Negra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Cinzel:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/piratas.css">
+</head>
+<body>
+<div id="loader"><h1>Levando anclas…</h1><div class="bar"><i id="lbar"></i></div><button id="enter" class="btn" hidden>Zarpar con música</button></div>
+<canvas id="sea"></canvas>
+<div id="flash"></div>
+<div id="vignette"></div>
+
+<header id="nav">
+  <a class="logo" href="#inicio">⚓ Perla Negra</a>
+  <nav><a href="#leyenda">Leyenda</a><a href="#tripulacion">Tripulación</a><a href="#peliculas">Películas</a><a href="#juegos">Juegos</a><a href="#artefactos">Artefactos</a><a href="#galeria">Galería</a><a href="#test">Test</a><a href="#unete">Únete</a></nav>
+</header>
+
+<aside id="compass"><div id="needle"></div><span id="lat">18°N</span></aside>
+<aside id="route"></aside><div id="toast"></div>
+<div id="progress"><i id="pbar"></i></div>
+
+<main>
+  <section id="inicio" class="hero">
+    <p class="eyebrow">Mar Caribe · Siglo XVIII</p>
+    <h1>PIRATAS<br><span>DEL CARIBE</span></h1>
+    <p class="lead">Navega con el barco más temido de los siete mares. Desciende y deja que el viento te lleve.</p>
+    <a href="#leyenda" class="btn">Zarpar</a>
+    <div class="scroll">Desliza <i></i></div>
+  </section>
+
+  <section id="leyenda" class="right">
+    <div class="panel reveal">
+      <p class="eyebrow">Capítulo I</p>
+      <h2>La Leyenda</h2>
+      <p>Dicen que en las aguas del Caribe existe un navío de velas negras que aparece entre la niebla y desaparece sin dejar rastro. Su capitán, su tripulación y su maldición son historia viva en cada puerto.</p>
+      <div class="stats">
+        <div><b data-n="300">0</b><small>Años de leyenda</small></div>
+        <div><b data-n="32">0</b><small>Cañones</small></div>
+        <div><b data-n="100">0</b><small>Tesoros</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tripulacion" class="left">
+    <div class="panel wide reveal">
+      <p class="eyebrow">Capítulo II</p>
+      <h2>La Tripulación</h2>
+      <div class="cards">
+        <article class="card"><div class="slot" data-key="jack"></div><h3>Jack Sparrow</h3><p>Capitán. Ingenio, ron y una brújula que no apunta al norte.</p></article>
+        <article class="card"><div class="slot" data-key="barbossa"></div><h3>Hector Barbossa</h3><p>Corsario implacable, maestro de la estrategia y el engaño.</p></article>
+        <article class="card"><div class="slot" data-key="elizabeth"></div><h3>Elizabeth Swann</h3><p>Valiente y astuta, nacida para mandar en alta mar.</p></article>
+        <article class="card"><div class="slot" data-key="will"></div><h3>Will Turner</h3><p>Herrero y espadachín con un destino ligado al mar.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="peliculas" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo III</p><h2>Las Películas</h2><div class="cards"><article class="card"><div class="slot" data-key="film1"></div><h3>La maldición del Perla Negra</h3><small class="year">2003</small><p>Jack, Will y Elizabeth se enfrentan a una tripulación maldita bajo la luna.</p></article><article class="card"><div class="slot" data-key="film2"></div><h3>El cofre del hombre muerto</h3><small class="year">2006</small><p>Una deuda con Davy Jones y un cofre que lo cambia todo.</p></article><article class="card"><div class="slot" data-key="film3"></div><h3>En el fin del mundo</h3><small class="year">2007</small><p>Los Nueve Señores Piratas se unen en una batalla definitiva.</p></article><article class="card"><div class="slot" data-key="film4"></div><h3>En mareas misteriosas</h3><small class="year">2011</small><p>La búsqueda de la Fuente de la Juventud y un temido Barbanegra.</p></article><article class="card"><div class="slot" data-key="film5"></div><h3>La venganza de Salazar</h3><small class="year">2017</small><p>Un cazador de piratas fantasma busca a Jack por los siete mares.</p></article></div></div></section>
+  <section id="juegos" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo IV</p><h2>Videojuegos</h2><div class="cards"><article class="card"><div class="slot" data-key="game1"></div><h3>La leyenda de Jack Sparrow</h3><small class="year">2006</small><p>Aventura de acción que recorre los hechos de las primeras películas.</p></article><article class="card"><div class="slot" data-key="game2"></div><h3>En el fin del mundo</h3><small class="year">2007</small><p>Adaptación jugable de la tercera película, con combates a espada y cañón.</p></article><article class="card"><div class="slot" data-key="game3"></div><h3>Pirates of the Caribbean Online</h3><small class="year">2007</small><p>Juego multijugador online con barcos, tripulaciones y duelos.</p></article><article class="card"><div class="slot" data-key="game4"></div><h3>Tides of War</h3><small class="year">2013</small><p>Título de estrategia para móviles ambientado en este universo.</p></article></div><p class="note">Revisa los datos de cada título si vas a publicar la web.</p></div></section>
+  <section id="villanos" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo V</p><h2>Villanos del Mar</h2><div class="cards"><article class="card"><div class="slot" data-key="vil1"></div><h3>Davy Jones</h3><small class="year">El cofre del hombre muerto</small><p>Capitán del Holandés Errante, con el Kraken a sus órdenes.</p></article><article class="card"><div class="slot" data-key="vil2"></div><h3>Barbanegra</h3><small class="year">En mareas misteriosas</small><p>Un pirata temido que domina su barco con fuego y magia.</p></article><article class="card"><div class="slot" data-key="vil3"></div><h3>Capitán Salazar</h3><small class="year">La venganza de Salazar</small><p>Cazador de piratas atrapado entre la vida y la muerte.</p></article></div></div></section>
+  <section id="artefactos" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo</p><h2>Tesoros y Artefactos</h2><div class="cards"><article class="card"><div class="slot" data-key="art1"></div><h3>La Brújula de Jack</h3><p>No apunta al norte: señala lo que más desea quien la sostiene.</p></article><article class="card"><div class="slot" data-key="art2"></div><h3>El Cofre de Davy Jones</h3><p>Guarda el corazón del capitán del Holandés Errante.</p></article><article class="card"><div class="slot" data-key="art3"></div><h3>El Oro Azteca</h3><p>Un botín maldito que convierte a sus ladrones en muertos vivientes.</p></article><article class="card"><div class="slot" data-key="art4"></div><h3>El Tridente de Poseidón</h3><p>Se dice que rompe todas las maldiciones del mar.</p></article></div></div></section>
+  <section id="barco" class="right">
+    <div class="panel reveal">
+      <p class="eyebrow">Capítulo VI</p>
+      <h2>El Perla Negra</h2>
+      <p>Casco oscuro, velas rasgadas y una velocidad que desafía al viento. Cada tabla guarda una historia y cada cañón, una advertencia.</p>
+      <ul class="specs">
+        <li><span>Eslora</span><em>48 m</em></li>
+        <li><span>Mástiles</span><em>3</em></li>
+        <li><span>Velocidad</span><em>16 nudos</em></li>
+        <li><span>Tripulación</span><em>120 almas</em></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="codigo" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo</p><h2>El Código Pirata</h2><p>Reglas de la casa, inspiradas en el espíritu de la saga.</p><div style="margin-top:20px"><details><summary>Artículo I · La firma</summary><p>Quien se une a la tripulación firma con su nombre y acepta las reglas del barco.</p></details><details><summary>Artículo II · El botín</summary><p>El tesoro se reparte en partes acordadas de antemano según el rango de cada uno.</p></details><details><summary>Artículo III · El rezagado</summary><p>El barco no se detiene por un solo hombre: quien se queda atrás, se queda atrás.</p></details><details><summary>Artículo IV · El mando</summary><p>El capitán manda, pero la tripulación puede pedir cuentas si pierde el rumbo.</p></details><details><summary>Artículo V · El parlamento</summary><p>Quien invoca parlamento debe ser escuchado antes de desenvainar la espada.</p></details></div></div></section>
+  <section id="galeria" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo VII</p><h2>Galería</h2><p>Haz clic en cualquier hueco para subir tu imagen.</p><div class="gal"><div class="slot" data-key="gal1"></div><div class="slot" data-key="gal2"></div><div class="slot" data-key="gal3"></div><div class="slot" data-key="gal4"></div><div class="slot" data-key="gal5"></div><div class="slot" data-key="gal6"></div></div></div></section>
+  <section id="origen" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo</p><h2>Detrás de la Leyenda</h2><div class="cards"><article class="card"><div class="slot" data-key="ori1"></div><h3>La Atracción</h3><p>Todo empezó con la atracción de Disneyland, inaugurada en 1967, que inspiró la saga.</p></article><article class="card"><div class="slot" data-key="ori2"></div><h3>La Música</h3><p>Klaus Badelt firmó la banda sonora de la primera película y Hans Zimmer la de las tres siguientes.</p></article><article class="card"><div class="slot" data-key="ori3"></div><h3>La Dirección</h3><p>Gore Verbinski dirigió las tres primeras películas de la saga.</p></article></div></div></section>
+  <section id="ruta" class="left">
+    <div class="panel wide reveal">
+      <p class="eyebrow">Capítulo VIII</p>
+      <h2>La Ruta del Tesoro</h2>
+      <div class="timeline">
+        <div><b>Tortuga</b><p>Puerto sin ley donde se forman las alianzas.</p></div>
+        <div><b>Port Royal</b><p>Fortaleza y comercio bajo bandera inglesa.</p></div>
+        <div><b>Isla de Muerta</b><p>Escondida en la tormenta, guarda el oro maldito.</p></div>
+        <div><b>El Fin del Mundo</b><p>Donde el mar se acaba y empieza la leyenda.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="test" class="center"><div class="panel wide reveal"><p class="eyebrow">Capítulo</p><h2>¿Qué pirata eres?</h2><div id="quiz"></div></div></section>
+  <section id="tesoro" class="center"><div class="panel reveal" style="text-align:center"><p class="eyebrow">Capítulo IX</p><h2>El Tesoro</h2><p>Has llegado a la isla. La X marca el lugar… ¿te atreves a abrir el cofre?</p><br><button id="chest" class="btn" type="button">Abrir el cofre</button><p id="loot" style="margin-top:18px;color:var(--gold2)"></p></div></section>
+  <section id="unete" class="center">
+    <div class="panel reveal">
+      <p class="eyebrow">Capítulo X</p>
+      <h2>Únete a la Tripulación</h2>
+      <p>Deja tu nombre en el libro de a bordo y recibe el mapa antes que nadie.</p>
+      <form id="crew">
+        <input type="text" placeholder="Tu nombre de pirata" required>
+        <input type="email" placeholder="Tu correo" required>
+        <button class="btn" type="submit">Firmar</button>
+      </form>
+      <p id="msg"></p>
+    </div>
+    <footer>Web de fans sin ánimo de lucro · Piratas del Caribe es propiedad de Disney.</footer>
+  </section>
+</main>
+
+<button id="sound" title="Silenciar / activar música">🔊</button>
+<audio id="bso" src="audio/piratas-del-caribe.mp3" loop preload="auto"></audio>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="js/modelos.js"></script>
+<script src="js/imagenes.js"></script>
+<script src="js/piratas.js"></script>
+</body>
+</html>
